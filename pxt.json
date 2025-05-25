@@ -1,0 +1,28 @@
+{
+    "name": "Robot Basic with Tilemap and Tiles",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Robot Extension": "github:MrDGuy/robot-extension-beta#7de2bc07988e83b396fbb404b8694b38f6bd783d"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "pyprj"
+}
